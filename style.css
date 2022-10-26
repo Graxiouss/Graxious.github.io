@@ -1,0 +1,99 @@
+* {
+    text-decoration: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+}
+
+.logoposition {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    margin-top: 0.4cm;
+    float: left;
+}
+.navbarposition{
+    margin-top: 70px;
+    float: right;
+    font-family: calibri;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a{
+    color: blue;
+    font-weight: bold;
+    text-align : center;
+    padding: 0px 20px 0px 20px;
+    text-decoration:underline ;
+}
+
+.quotes {
+    margin: auto;
+    color: slategray;
+    display: flex;
+    align-items: center;
+    font-family: calibri;
+    font-size: 25px;
+    font-style: italic;
+    list-style: none;
+    padding-left: 2cm;
+    padding-right: 1cm;
+    padding-bottom: 1cm;
+    width: 700px;
+    height: 130px;
+    border-bottom: 1cm ;
+    border-left: 10px solid orange;
+    background-image: linear-gradient( 180deg, white, rgb(219, 219, 219))
+}
+body{
+    background-image: linear-gradient(180deg, white, rgb(179, 174, 174));
+}
+.copyright{
+    text-align: center;
+    font-family: calibri;
+    word-spacing: 3px;
+    margin: 0;
+    padding: 20px;
+    border: 0;
+}
+h3{
+    float: right;
+}
+.wrap{
+    margin: auto;
+    padding-top: 60px;
+    width: 1100px;
+    border: 0;
+}
+img{
+    padding: 0;
+    margin: 4px;
+    margin-right: 5px;
+}
+
+.wrap img{
+    width: 250px;
+    height: 300px;
+    padding: 0;
+    border: 7px solid green ;
+    margin: 3px;
+}
